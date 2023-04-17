@@ -22,7 +22,7 @@ ifneq ($(shell docker ps -a --filter "name=${APP_NAME}" -aq 2> /dev/null | wc -l
 endif
 
 docker-command: remove-containers
-	@echo "${BOLD_YELLOW}running app${COLOR_OFF}"
+	@echo "${BOLD_YELLOW}running container${COLOR_OFF}"
 	@docker run -it -v $(shell pwd):${APP_DIR} -w ${APP_DIR} \
 		--name ${APP_NAME} \
 		--env-file .env \

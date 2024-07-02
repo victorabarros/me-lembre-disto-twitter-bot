@@ -12,5 +12,5 @@ references
 TODO
 read
 - https://www.phind.com/search?cache=b15dc6f8-c398-4ead-b4b8-24fc2c297934
--
+- send to folks that @reminder didn't work: https://twitter.com/randolfeap/status/1645943477098692608
  -->
